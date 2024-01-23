@@ -1,0 +1,336 @@
+
+/*Google Font - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Righteous&display=swap');
+
+*{
+    margin:0;
+    text-decoration: none;
+    font-family:"Poppins",Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding:0;
+    scrollbar-width: thin;  
+}
+
+/*Custom Scroll bar*/
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color:#101820;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border: 3px solid #FEE715;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+        background-color: #101820;
+}
+
+/*Home Section*/
+section{
+    min-height: 95vh;
+    padding: 10rem 9% 2rem;
+    gap: 100px;
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img{
+    position: relative;
+    bottom: 100px;
+    min-height: 20vh;
+    width: 76vh;
+    z-index: -1;
+
+    
+}
+
+
+
+
+.socials a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    font-size:2em;
+    color:white;
+    transition: all ease 1s;
+    margin:5px;
+}
+
+.socials a:hover{
+    color: gray;
+}   
+.title-section h1{
+    font-size: 4.2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: white;
+
+}
+
+.Hi{
+    color:#FEE715;
+    text-shadow: 0 0 10px #FEE715;
+    
+}
+
+
+.title-section h3{
+    font-size: 2.0rem;
+    color: white;
+}
+.title-section p{
+    color:white;
+}
+
+.cv{
+  background: #e7d104;
+  border-radius: 5em;
+  box-shadow: #FEE715 0 0 10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  border: 0;
+   margin-top:20px;
+   margin-bottom: 20px;
+   transition: 1s all ease;
+}
+
+.cv:hover{
+    opacity: 70%;
+
+}
+    
+
+
+
+.head{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    
+    
+}
+
+#menu_icon{
+    font-size: 20px;
+    color:#FEE715;
+    display:none;
+    
+}
+
+.logo{
+    color:#FEE715;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left:3rem;
+}
+
+.navigation a {
+    color:#FEE715;
+    padding-right: 100px;
+    transition: all 1s ease;
+    font-size: 20px;
+    display: none;
+
+}
+
+.navigation a:hover{
+    opacity: 50%;
+    color: #f3dc0a;
+}
+
+
+
+/*End of Home section*/
+
+/*About me section*/
+
+
+
+.about_me{
+    display: flex;
+}
+
+.about_me h1{
+    position: relative;
+    bottom: 50px;
+    font-size: 70px;
+    color:#ffffff;
+    font-weight: 300;
+
+    
+}
+
+.red-text{
+    color:#FEE715;
+    font-size: 60px;
+    font-weight:800;
+}
+
+.emoji_small{
+ width: 200px;
+ position: relative;
+top: 50px;
+}
+
+.about{
+    width: 60%;
+}
+.about_hobbies{
+    font-size: 30px;
+    color:rgb(235, 238, 84);
+    line-height: 1.2;
+}
+
+.about_p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.about_btn{
+    background: #d8c51f;
+    border-radius: 5em;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 18px;
+    border: 0;
+     margin-top:20px;
+     margin-bottom: 20px;
+     transition: 1s all ease;
+}
+
+.Skills{
+    color:white;
+    font-size: 25px;
+}
+
+.about_btn:hover{
+    background-color: #fce944;
+}
+
+.thumbs_up{
+    position: relative;
+
+    left: 100px;
+   width:700px;
+   height: fit-content;
+   z-index: -1;
+   transition: .4s;
+   transform-origin: 50%,50%;
+}
+/*End of About me section*/
+
+/* Start of Contact me section */
+.contact{
+    display: flex;
+
+}
+
+.contact h1{
+    color:#FEE715;
+    font-size: 65px;
+}
+
+/*End of Contact me Section*/
+/*Screen sizes*/
+@media(min-width:360px){
+ 
+}
+
+@media(min-width:540px){
+
+}
+
+@media(min-width:720px){
+   
+    #menu_icon{
+     font-size: 30px;
+     color:white;
+     display: flex;
+
+    }
+
+    .title img{
+    width: 55vh;
+    position: relative;
+
+    
+    }
+    .title-section{
+        width: 50%;
+ 
+    }
+
+    .title-section h3{
+        font-size: 1.0rem;
+        color: white;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section{
+        min-width: 85vh;
+    }
+
+    .title-section p{
+        width: 100%;
+    }
+}
+
+@media(min-width:1020px){
+   .navigation a {
+    display: inline-flex;
+    margin-right: 50px;
+    color:white;
+    padding-right:2rem;
+    transition: all 1s ease;
+    font-size: 20px;
+   }
+
+   #menu_icon{
+    font-size: 20px;
+    color:white;
+    display:none;
+   }
+
+   .title img{
+        width: 76vh;
+       
+   }    
+
+   .title-section h3{
+    font-size: 2.0rem;
+    color: white;
+}
+
+    .section{
+        min-height: 95vh;
+    }
+}
+
