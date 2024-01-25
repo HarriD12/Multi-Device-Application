@@ -21,7 +21,7 @@
   }
 
   *::-webkit-scrollbar-thumb {
-    border: 3px solid #FEE715;
+    border: 3px solid #ffffff;
   }
 
 html{
@@ -55,25 +55,56 @@ section{
 
     
 }
+ /*Social buttons*/
+.insta{
+    color: rgb(247, 247, 247);
+    transition: 1s ease;
+}
 
+.insta:hover{
+   color:#EE2A7B;
+}
 
+.facebook{
+    color:white;
+    transition: 1s ease;
+}
 
+.facebook:hover{
+    color:#3b5998;
+}
+
+.twitter{
+    color: white;
+    transition: 1s ease;
+}
+.twitter:hover{
+    color:#1DA1F2;
+}
+
+.twitch{
+    color: white;
+    transition: 1s ease;
+}
+.twitch:hover{
+    color:#6441a5
+}
 
 .socials a{
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
     width: 4rem;
     height: 4rem;
     font-size:2em;
-    color:white;
-    transition: all ease 1s;
+    padding-top:10px;
     margin:5px;
+    justify-content: space-between;
 }
 
 .socials a:hover{
-    color: gray;
+    transform: translateY(-10px);
 }   
+/*End of social buttons*/
+
 .title-section h1{
     font-size: 4.2rem;
     font-weight: bolder;
