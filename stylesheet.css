@@ -1,111 +1,114 @@
-
 /*Google Font - Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Righteous&display=swap');
 
-*{
-    margin:0;
+* {
+    margin: 0;
     text-decoration: none;
-    font-family:"Poppins",Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    padding:0;
-    scrollbar-width: thin;  
+    padding: 0;
+    scrollbar-width: thin;
+
 }
 
 /*Custom Scroll bar*/
 *::-webkit-scrollbar {
     width: 12px;
-  }
+}
 
-  *::-webkit-scrollbar-track {
-    background-color:#101820;
-  }
+*::-webkit-scrollbar-track {
+    background-color: #101820;
+}
 
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     border: 3px solid #ffffff;
-  }
+}
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-        background-color: #101820;
+body {
+    background-color: #101820;
 }
 
 /*Home Section*/
-section{
-    min-height: 95vh;
+section {
     padding: 10rem 9% 2rem;
-    gap: 100px;
-    
+
 }
 
-.title{
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
+  
 }
 
-.title img{
+.title img {
     position: relative;
     bottom: 100px;
-    min-height: 20vh;
     width: 76vh;
     z-index: -1;
+    display: none;
 
-    
+
 }
- /*Social buttons*/
-.insta{
+
+/*Social buttons*/
+.insta {
     color: rgb(247, 247, 247);
     transition: 1s ease;
 }
 
-.insta:hover{
-   color:#EE2A7B;
+.insta:hover {
+    color: #EE2A7B;
 }
 
-.facebook{
-    color:white;
-    transition: 1s ease;
-}
-
-.facebook:hover{
-    color:#3b5998;
-}
-
-.twitter{
+.facebook {
     color: white;
     transition: 1s ease;
 }
-.twitter:hover{
-    color:#1DA1F2;
+
+.facebook:hover {
+    color: #3b5998;
 }
 
-.twitch{
+.twitter {
     color: white;
     transition: 1s ease;
 }
-.twitch:hover{
-    color:#6441a5
+
+.twitter:hover {
+    color: #1DA1F2;
 }
 
-.socials a{
+.twitch {
+    color: white;
+    transition: 1s ease;
+}
+
+.twitch:hover {
+    color: #6441a5
+}
+
+.socials a {
     display: inline-flex;
     width: 4rem;
     height: 4rem;
-    font-size:2em;
-    padding-top:10px;
-    margin:5px;
+    font-size: 2em;
+    padding-top: 10px;
+    margin: 5px;
     justify-content: space-between;
 }
 
-.socials a:hover{
+.socials a:hover {
     transform: translateY(-10px);
-}   
+}
+
 /*End of social buttons*/
 
-.title-section h1{
+.title-section h1 {
     font-size: 4.2rem;
     font-weight: bolder;
     line-height: 1.5;
@@ -113,73 +116,74 @@ section{
 
 }
 
-.Hi{
-    color:#FEE715;
+.Hi {
+    color: #FEE715;
     text-shadow: 0 0 10px #FEE715;
-    
+
 }
 
 
-.title-section h3{
+.title-section h3 {
     font-size: 2.0rem;
     color: white;
 }
-.title-section p{
-    color:white;
+
+.title-section p {
+    color: white;
 }
 
-.cv{
-  background: #e7d104;
-  border-radius: 5em;
-  box-shadow: #FEE715 0 0 10px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  outline: 0 solid transparent;
-  padding: 8px 18px;
-  border: 0;
-   margin-top:20px;
-   margin-bottom: 20px;
-   transition: 1s all ease;
+.cv {
+    background: #e7d104;
+    border-radius: 5em;
+    box-shadow: #FEE715 0 0 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 1s all ease;
 }
 
-.cv:hover{
+.cv:hover {
     opacity: 70%;
 
 }
-    
 
 
 
-.head{
+
+.head {
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding:30px;
-    
-    
+    padding: 30px;
+
+
 }
 
-#menu_icon{
+#menu-icon {
     font-size: 20px;
-    color:#FEE715;
-    display:none;
-    
+    color: #FEE715;
+    display: none;
+
 }
 
-.logo{
-    color:#FEE715;
+.logo {
+    color: #FEE715;
     font-size: 30px;
     font-weight: 600;
-    padding-left:3rem;
+    padding-left: 3rem;
 }
 
 .navigation a {
-    color:#FEE715;
+    color: #FEE715;
     padding-right: 100px;
     transition: all 1s ease;
     font-size: 20px;
@@ -187,7 +191,7 @@ section{
 
 }
 
-.navigation a:hover{
+.navigation a:hover {
     opacity: 50%;
     color: #f3dc0a;
 }
@@ -200,48 +204,59 @@ section{
 
 
 
-.about_me{
+.about-me {
     display: flex;
+
 }
 
-.about_me h1{
+.about-me h1 {
     position: relative;
     bottom: 50px;
     font-size: 70px;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 300;
+   
 
+}
+
+.about_title{
+    color: white;
+    font-size: 75px;
+}
+
+.red-text {
+    color: #FEE715;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.emoji_small {
+    width: 200px;
+    position: relative;
+    top: 50px;
+    display: none;
+}
+
+.about {
+    width: 60%;
+}
+
+.about-hobbies {
+    font-size: 30px;
+    color: rgb(235, 238, 84);
+    line-height: 1.2;
     
 }
 
-.red-text{
-    color:#FEE715;
-    font-size: 60px;
-    font-weight:800;
-}
 
-.emoji_small{
- width: 200px;
- position: relative;
-top: 50px;
-}
-
-.about{
-    width: 60%;
-}
-.about_hobbies{
-    font-size: 30px;
-    color:rgb(235, 238, 84);
-    line-height: 1.2;
-}
-
-.about_p{
+.about-p {
     color: white;
-    font-size: 20px;
-    margin-bottom: 50px;
-}
+    font-size: 1.5rem;
+    padding: 10px;
 
-.about_btn{
+}   
+
+.about-btn {
     background: #d8c51f;
     border-radius: 5em;
     color: #FFFFFF;
@@ -251,117 +266,620 @@ top: 50px;
     font-weight: 700;
     padding: 8px 18px;
     border: 0;
-     margin-top:20px;
-     margin-bottom: 20px;
-     transition: 1s all ease;
+    transition: 1s all ease;
+    display: none;
 }
 
-.Skills{
-    color:white;
+.Skills {
+    color: white;
     font-size: 25px;
 }
 
-.about_btn:hover{
+.about-btn:hover {
     background-color: #fce944;
 }
 
-.thumbs_up{
+.thumbs-up {
     position: relative;
-
     left: 100px;
-   width:700px;
-   height: fit-content;
-   z-index: -1;
-   transition: .4s;
-   transform-origin: 50%,50%;
+    width: 700px;
+    height: fit-content;
+    z-index: -1;
+    transition: .4s;
+    transform-origin: 50%, 50%;
+    display: none;
 }
+
 /*End of About me section*/
 
 /* Start of Contact me section */
-.contact{
-    display: flex;
 
+.contact h2{
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-.contact h1{
-    color:#FEE715;
-    font-size: 65px;
+.contact form{
+    width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .contact-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .contact-box input,
+.contact form textarea{
+    width: 100%;
+    padding:1.5rem;
+    font-size: 15px;
+    color:#fce944;
+    background-color: black;
+    border: solid white 2px;
+ 
 }
 
 /*End of Contact me Section*/
 /*Screen sizes*/
-@media(min-width:360px){
+@media(min-width:360px) {
+
+  
  
-}
-
-@media(min-width:540px){
-
-}
-
-@media(min-width:720px){
+        .logo {
+            color: #FEE715;
+            font-size: 25px;
+            font-weight: 600;
+           position: relative;
+           left: 60px;
+        }
    
-    #menu_icon{
-     font-size: 30px;
-     color:white;
-     display: flex;
 
+    .Hi{
+        font-size: 40px;
     }
 
-    .title img{
-    width: 55vh;
-    position: relative;
-
-    
-    }
-    .title-section{
-        width: 50%;
- 
-    }
-
-    .title-section h3{
+    .title-section h3 {
         font-size: 1.0rem;
         color: white;
-        flex-direction: column;
-        width: 100%;
+    }
+    .title-section h1 {
+        font-size: 35px;
+        color: white;
     }
 
-    .section{
-        min-width: 85vh;
+    .title-section p {
+        font-size: 16px;
+        color: white;
+    }
+    
+    .title{
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+
     }
 
-    .title-section p{
+    .socials a {
+        display: inline-flex;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5em;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        justify-content: space-between;
+        
+    }
+    
+    .title img{
+        display: grid;
+        width: 100%;
+        margin-top:5rem;
+        padding-right: 50px;
+        position: relative;
+        
+    }
+
+    .contact form{
+        width: auto;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+   /*About me section*/
+    .about-me{
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+        
+    }
+    .about h1{
+        font-size: 3rem;
+    }
+    .red-text{
+        font-size: 2rem;
+    }
+    .about-p{
+      font-size: 1.2rem; 
+        
+    }
+
+    .about-hobbies{
+        font-size: 1.5rem;
+        height: 15px;
+    }
+
+    .about-btn{
+        display: flex;
+    }
+
+    .about{
         width: 100%;
     }
+    
+    
+    /*Contacts*/
+    .contact-box{
+        margin-bottom: 20px;
+        display: flex;
+        min-width: auto;
+        
+    }
+    
+    .about_title{
+        font-size: 30px;
+    }
+
+    .red-text{
+        font-size: auto;
+    }
+    textarea{
+        display: none;
+    }
+
+    .contact-btn{
+        margin-top: 20px;
+        background: #d8c51f;
+        border-radius: 5em;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 8px 18px;
+        border: 0;
+        transition: 1s all ease;
+        display: block;
+       }
+    
+
 }
 
-@media(min-width:1020px){
-   .navigation a {
-    display: inline-flex;
-    margin-right: 50px;
-    color:white;
-    padding-right:2rem;
-    transition: all 1s ease;
-    font-size: 20px;
-   }
+@media(min-width:540px) {
 
-   #menu_icon{
-    font-size: 20px;
-    color:white;
-    display:none;
-   }
+    #menu-icon {
+        font-size: 30px;
+        color: white;
+        display: flex;
+        margin-right: 40px;
+    }
 
-   .title img{
-        width: 76vh;
+   
+    .Hi{
+        font-size: 3.0rem;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-section{
+        font-size: 20px;
+    }
+
+    .title-section h3 {
+        font-size: 3.0rem;
+        color: white;
+        flex-direction: column;
+    }
+
+
+    .title-section p {
+       font-size: 1.0rem;
+    }
+
+    
+    .title-section h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.8;
+    color: white;
+
+    }
+
+    
+    .title-section h3 {
+    font-size: 1.5rem;
+    color: white;
+    }
+
+    .title-section p {
+    color: white;
+    line-height: 1.9;
+    font-size: 20px;
+    }
+
+    .navigation a {
+        display: none;
+        margin-right: 30px;
+        color: white;
+        padding-right: 2rem;
+        transition: all 1s ease;
+        font-size: 20px;
+    }
+
+    /*About me*/
+    .about-me h1 {
+        font-size: 70px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        align-content: center;
+    
+    }
+    .thumbs-up {
+        display:none;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about-btn{
+        display: flex;
+
+    }
+
+    
+    .about-btn{
+        display: flex;
+    }
+    
+
+    
+    .contact-box{
+        width: 100%;
+        margin-bottom: 20px;
+        min-width: auto;
+    }
+
+    textarea{
+        display: none;
+    }
+
+    .contact-btn{
+        margin-top: 20px;
+        background: #d8c51f;
+        border-radius: 5em;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 8px 18px;
+        border: 0;
+        transition: 1s all ease;
+        display: block;
+       }
+
+       .contact{
+           min-height: auto;
+       }
        
-   }    
+}    
 
-   .title-section h3{
+   
+@media(min-width:720px) {
+
+    .section{
+        gap:0px;
+    }
+    
+    .Hi{
+        font-size: 3.0rem;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-section{
+        font-size: 20px;
+    }
+
+    .title-section h3 {
+        font-size: 3.0rem;
+        color: white;
+        flex-direction: column;
+    }
+    .logo {
+        color: #FEE715;
+        font-size: 30px;
+        font-weight: 600;
+        
+    }
+
+
+    .title-section p {
+       font-size: 1.0rem;
+    }
+
+    
+    .title-section h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.8;
+    color: white;
+
+    }
+
+    
+    .title-section h3 {
+    font-size: 1.5rem;
+    color: white;
+    }
+
+    .title-section p {
+    color: white;
+    line-height: 1.9;
+    font-size: 20px;
+    }
+    
+    .navigation a {
+        display: inline-flex;
+        margin-right: 10px;
+        color: white;
+        padding-right: 2rem;
+        transition: all 1s ease;
+        font-size: 20px;
+    }
+    
+    /*About me*/
+    .about-me h1 {
+        font-size: 70px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        align-content: center;
+    
+    }
+    .thumbs-up {
+        display:none;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about-btn{
+        display: flex;
+
+    }
+
+    .contact-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    textarea{
+        display: none;
+    }
+
+    .contact-btn{
+        margin-top: 20px;
+        background: #d8c51f;
+        border-radius: 5em;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 8px 18px;
+        border: 0;
+        transition: 1s all ease;
+        display: block;
+       }
+    
+       
+
+}
+
+@media(min-width:1020px) {
+    .navigation a {
+        display: inline-flex;
+        margin-right: 50px;
+        color: white;
+        padding-right: 2rem;
+        transition: all 1s ease;
+        font-size: 25px;
+    
+    }
+    .logo {
+        color: #FEE715;
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 3rem;
+    }
+
+    #menu-icon {
+        font-size: 20px;
+        color: white;
+        display: none;
+    }
+
+    .title img {
+        width: 76vh;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title-section h3 {
+        font-size: 2.0rem;
+        color: white;
+    }
+
+    .section {
+        min-height: 95vh;
+    }
+    
+    .title-section h1 {
+    font-size: 4.2rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: white;
+
+    }
+
+
+    
+.title-section h3 {
     font-size: 2.0rem;
     color: white;
 }
 
-    .section{
-        min-height: 95vh;
-    }
+.title-section p {
+    color: white;
 }
 
+.title img {
+    position: relative;
+    bottom: 100px;
+    width: 76vh;
+    z-index: -1;
+    display: flex;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-section{
+    text-align: left;
+    position: none;
+}
+
+.socials a {
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2em;
+    padding-top: 10px;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+    /*About me*/
+
+    .about-me h1 {
+        position: relative;
+        bottom: 50px;
+        font-size: 100px;
+        color: #ffffff;
+        font-weight: 300;
+        
+    }
+
+
+    .about-p{
+        font-size: 25px;
+    }
+
+    .thumbs-up {
+        position: relative;
+        left: 100px;
+        width: 700px;
+        height: fit-content;
+        z-index: -1;
+        transform-origin: 50%, 50%;
+        display: flex;
+        top:50px;
+    }
+
+    .emoji_small {
+        width: 200px;
+        position: relative;
+        top: 50px;
+        display: inline-flex;
+    }
+
+    .about-me{
+        display: flex;
+    }
+
+    .about{
+        width: 60%;
+        height: 70vh;
+     
+    }
+
+    .about-btn{
+        width: 20%;
+        display: none;
+        
+    }
+
+    .about_title{
+        color: white;
+        font-size: 75px;
+    }
+    
+    .red-text {
+        color: #FEE715;
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    
+
+
+    /*contacts*/
+
+    .contact form{
+        width: 70rem;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .contact-box{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    textarea{
+        display: flex;
+    }
+
+   .contact-btn{
+    margin-top: 20px;
+    background: #d8c51f;
+    border-radius: 5em;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 18px;
+    border: 0;
+    transition: 1s all ease;
+   }
+}
