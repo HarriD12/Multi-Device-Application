@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,34 +14,48 @@
     <link rel="stylesheet" href="java.js">
 
 </head>
+
 <body>
 
-        <!--Home page-->
+    <!--Home page-->
     <header class="head">
         <h1 class="logo">My Portfolio</h1>
-        <a href="#"><i class='bx bx-menu' id="menu_icon"></i></a> <!--Boxicon menu icon-->
-        
+      
+        <!--Boxicon menu icon-->
+
         <nav class="navigation">
             <a href="#">Home</a>
-            <a href="#about_id">About Me </a>
-            <a href="contact_me">Contacts </a>
+            <a href="#about-id">About Me </a>
+            <a href="#contact-me">Contacts </a>
         </nav>
     </header>
 
     <section class="title">
         <div class="title-section">
-            <h1>Hello   <span class="Hi">Hi,</span> </h1>
+            <h1>Hello
+                <span class="Hi">Hi,</span>
+            </h1>
             <h3>My name is Harrison Darby</h3>
             <h3>Im a cyber security student at Bath spa university</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at rerum, dolorem corrupti maiores eos autem impedit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at rerum, dolorem corrupti maiores eos autem
+                impedit.
+            </p>
             <button class="cv">Download CV</button>
             <br>
             <!--Socials imgages from boxicon-->
             <div class="socials">
-                <a class="insta" href="#"><i class='bx bxl-instagram'></i></a>
-                <a class="facebook" href="#"><i class='bx bxl-facebook'></i></a>
-                <a class="twitter" href="#"><i class='bx bxl-twitter'></i></a>
-                <a class="twitch" href="#"><i class="bx bxl-twitch"></i></a>
+                <a class="insta" href="#">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a class="facebook" href="#">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a class="twitter" href="#">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a class="twitch" href="#">
+                    <i class="bx bxl-twitch"></i>
+                </a>
             </div>
         </div>
 
@@ -49,38 +64,58 @@
         </div>
     </section>
 
-   
+
     <!--End of Home page-->
 
     <!--About me Page-->
 
-    <section class="about_me" id="about_id">
-
+    <section class="about-me" id="about-id">
         <div class="about">
-                <h1 class="about_title">About <span class="red-text">Me.</span><span><img  class="emoji_small" src="Assets/peep hole.png" alt="emoji"></span></h1>
-                <h2 class="about_hobbies">Hobbies</h2>
-                <p class="about_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vel natus, nulla tempora officia quod reiciendis cumque repellat esse deserunt culpa nam consequatur at exercitationem aspernatur perferendis inventore tenetur placeat autem aut! Eaque enim dolorem natus tenetur facere quos. Deserunt suscipit dicta provident doloremque cum velit adipisci fugit. Illo, dolor.</p>
-                </p>
-                <h2 class="about_hobbies">Skills</h2>
-                <ul>
-                    <li class="Skills">Gaming</li>
-                    <li class="Skills">Programming and designing</li>
-                    <li class="Skills">Skateboarding</li>
-                </ul>
-            
-                <button class="about_btn">Read More</button>
-            </div>
-            <img class="thumbs_up" src="Assets/thumbs_up.png" alt="sticker">
-        </section>
+            <h1 class="about_title">About
+                <span class="red-text">Me.</span>
+                <span>
+                    <img class="emoji_small" src="Assets/peep hole.png" alt="emoji">
+                </span>
+            </h1>
+            <h2 class="about-hobbies">Hobbies</h2>
+            <p class="about-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vel natus, nulla tempora officia quod reiciendis
+                cumque repellat esse deserunt culpa nam consequatur at exercitationem aspernatur perferendis inventore tenetur
+                placeat autem aut! Eaque enim dolorem natus tenetur facere quos. Deserunt suscipit dicta provident doloremque
+                cum velit adipisci fugit. Illo, dolor.</p>
+            </p>
+            <h2 class="about-hobbies">interests</h2>
+            <p class="about-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptate tenetur, dignissimos in nisi quibusdam
+                aliquid consectetur consequatur iusto facere?</p>
+
+
+            <button class="about-btn">Read More</button>
+        </div>
+        <img class="thumbs-up" src="Assets/thumbs_up.png" alt="sticker">
+    </section>
+
     <!--End of About me Page-->
-        <section class="contact" id="contact_me">
 
-            <div class="contacts_div">
-                <h1 class="contact-title">Contact <span class="contact_title_span">Me</span></h1>
+    <!--Contact me section page-->
+    <section class="contact" id="contact-me">
+        <h2 class="about_title">Contact
+            <span class="red-text">Me</span>
+        </h2>
+        <form action="#">
+            <div class="contact-box">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
             </div>
+            <div class="contact-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input class="contact-btn" type="submit" value="Send Messsage">
+        </form>
 
-        </section>
-    
-    
+    </section>
+    <!--End of Contact me page-->
+
 </body>
+
 </html>
